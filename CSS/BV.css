@@ -1,0 +1,198 @@
+
+.verificar {
+    width: 14cm;
+    margin-bottom: 10px;
+}
+
+.register-input1{
+    width: 13cm;
+    margin-bottom: 10px;
+}
+.register-input2{
+    width: 10.3cm;
+    margin-bottom: 10px;
+}
+.register-input3{
+    width: 9.7cm;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #990012;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.register {
+    align-content: center;
+    columns: 2;
+    margin-left: 0.5cm;
+}
+
+.register-rigth{
+    size: -2px;
+    padding-left: 280px;
+}
+
+.header {
+    display: flex;
+}
+
+.header-left{
+    padding-right: 100px;
+}
+
+.logo{
+    margin-left: 22px;
+    margin-top: 15px;
+    border-style: solid;
+    border-radius: 0.1px;
+    border-color: black;
+}
+
+i {
+    position: absolute;
+    margin-left: 13.7cm;
+    margin-top: 2px;
+}
+
+::placeholder{
+    padding-left: px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    outline: none;
+}
+.Fecha{
+    display: grid;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.Hora{
+    display: grid;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.QR{
+
+    display: table;
+    text-align: center; 
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 0.45cm;
+    font-family: calibri;
+}
+
+.a{
+    background-color: aqua;
+    border-color: gray;
+    border-style: ridge;
+    border-width: 0.5px;
+    padding: 4px;
+}
+.b{
+    background-color: whitesmoke;
+    border-color: gray;
+    border-style: ridge;
+    border-width: 0.5px;
+    padding: 2px;
+}
+.c{
+    background-color: white;
+    border-color: gray;
+    border-style: ridge;
+    border-width: 0.5px;
+    padding: 2px;
+}
+.d{
+    background-color: whitesmoke;
+    border-color: gray;
+    border-style: ridge;
+    border-width: 0.5px;
+    padding: 2px;
+}
+
+.datos{
+    display: flex;
+}
+
+form{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.datos p{
+    padding-bottom: 0px;
+    padding-top: 10cm;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 12px;
+    margin: 40px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.datis{
+    margin-top: 10px;
+}
+.end1{
+    margin-top: 7cm;
+    position: absolute;
+    margin-left: 5cm;
+}
+.end2{
+    margin-top: 7cm;
+    position: absolute;
+    margin-left: 29cm;
+}
+
+.end3{
+    margin-top: 7cm;
+    position: absolute;
+    margin-left: 17cm;
+}
+
+hr {
+    border-color: #990012;
+}
+
+body{
+    background-color: goldenrod;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2356070c' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+
+    font-family:Times New Roman ;
+    font-size: 13px;
+    color: #990012;
+    border-color: #990012;
+    border-style: solid;
+}
+
+.datos {
+    padding-bottom: 6.5cm;
+}
+
+p {
+    font-size: 0.5cm;
+}
+
+h4 {
+    font-size: 0.4cm;
+}
+
+label {
+    color: #990012;
+    font-size: 0.4cm;
+    font-family: calibri;
+}

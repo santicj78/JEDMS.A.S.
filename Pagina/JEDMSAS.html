@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link rel="stylesheet" href="../CSS/estilos.css"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+Registro De Funcionarios
+  </title>
+</head> 
+ 
+<body></body>
+
+
+    
+  <h1>Formulario De Registro</h1> <!--title-->
+
+  <form method="post" action="registrar.php">
+  <fieldset>
+  <legend>Datos Personales</legend>
+Identificacion: <input type="number " name="Identificacion"><br>
+Nombre: <input type="text " name="Nombre"><br>
+Apellido: <input type="text " name="Apellido"><br>
+Area: 
+<select name="Area">
+  <option value=""></option>
+<option value="Produccion">Produccion</option>
+<option value="Recursos Humanos">Recursos Humanos</option>
+<option value="Medico">Medico</option>
+<option value="Caseteros">Caseteros</option>
+<option value="Gerencia En Ventas">Gerencia En Ventas</option>
+</select><br>
+
+
+Cargo: 
+<select name="Cargo">
+  <option value=""></option>
+  <option value="Jefe">Jefe</option>
+  <option value="Supervisor">Supervisor</option>
+  <option value="Secretaria">Secretaria</option>
+  <option value="Ventas">Ventas</option>
+  <option value="Empleado">Empleado</option>
+</select><br>
+Placa: <input type="text" name="Placa"><br>
+Numero De Chasis: <input type="text"><br>
+Ingrese La fecha del documento de su vehiculo: <br>
+<textarea rows="4" cols="20">
+Ingrese la fecha del documento de su vehiculo aqui
+</textarea><br>
+
+Contacto De Emergencia: <input type="text"><br>
+Asignacion QR:
+<input type="submit" value="MI QR"><br>
+<ul>
+  <li>
+    <a href="../index.html">
+      <input type="button" value="registrar">
+    </a>
+  </li>
+</ul>
+
+<input type="reset" value="limpiar">
+<br>
+<ul>
+  <li>
+    <a href="../index.html">
+      <input type="button" value="salir">
+    </a>
+  </li>
+</ul>
+</fieldset>
+
+
+
+</body>
+</html>

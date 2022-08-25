@@ -1,0 +1,36 @@
+.contenedor{
+    
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor2{
+   
+    height: 8vh;
+    display: flex;
+    
+}
+.contenedor3{
+    
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor4{
+
+    height: 8vh;
+    display: flex;
+    
+}
+.contenedor5{
+   
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor6{
+  
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
